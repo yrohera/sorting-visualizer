@@ -1,0 +1,45 @@
+<html>
+<title>Sorting Visualizer</title>
+<link rel="stylesheet" href="/css/style.css">
+<script type="text/javascript" src="/js/sorting/bubble_sort.js"></script>
+<script type="text/javascript" src="/js/sorting/insertion_sort.js"></script>
+<script type="text/javascript" src="/js/sorting/selection_sort.js"></script>
+<script type="text/javascript" src="/js/sorting/quick_sort.js"></script>
+<script type="text/javascript" src="/js/effects/effects.js"></script>
+<script type="text/javascript" src="/js/sorting/merge_sort.js"></script>
+<script type="text/javascript" src="/js/sorting/heap_sort.js"></script>
+<body>
+<div id="nav-box">
+<select class="selection-box" id="sortOption">
+<option value="1">Bubble Sort</option>
+<option value="2">Merge Sort</option>
+<option value="3">Insertion Sort</option>
+<option value="4">Selection Sort</option>
+<option value="5">Quick Sort</option>
+<option value="6">Heap Sort</option>
+</select>
+<select class="selection-box" id="length" style="left:0px;width:5%">
+<option>5</option>
+<option>20</option>
+<option>50</option>
+<option>100</option>
+</select>
+<select class="selection-box" id="speed" style="position:absolute;left:94%;width:6%;background-color:white;border:1px solid black">
+<option value="0">QUICKY</option>
+<option>5</option>
+<option>10</option>
+<option>50</option>
+<option>100</option>
+<option>500</option>
+<option>1000</option>
+<option value="2000">SLOWLY</option>
+</select>
+</div>
+<div id="animation-box">
+<div id="graph"></div>
+</div>
+<button class="selection-box" style="height:5%;top:75.5%;background-color:white;border:1px solid black;" onclick="Sort()" id="sort" disabled>SORT</button>
+<button id="create" class="selection-box" style="height:5%;top:19.5%;background-color:white;border:1px solid black" onclick="CreateGraph()">Create Graphs</button>
+
+</body>
+</html>

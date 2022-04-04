@@ -1,0 +1,46 @@
+body
+{
+    background-color: rgba(243, 243, 243, 0.212);
+}
+
+#animation-box
+{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    height: 50%;
+    top: 25%;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+#nav-box
+{
+    position: absolute;
+    width:70%;
+    height: 5%;
+    border: 0px solid black;
+    overflow: hidden;
+    left: 15%;
+    right: 0px;
+    background-color: rgba(229, 226, 226, 0.931);
+}
+
+.selection-box
+{
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    left: 42.5%;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+#graph
+{
+    position: absolute;
+    background-color: rgba(235, 178, 72, 0.424);
+}
+
+
